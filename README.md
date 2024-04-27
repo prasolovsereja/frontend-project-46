@@ -1,1 +1,1 @@
-# hexlet-js
+# hexlet-js-tests
