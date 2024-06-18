@@ -1,7 +1,8 @@
 import path from "path";
 import fs from "fs";
 import parse from "./parse.js";
-import { types } from "util";
+import treeBuilder from "./treeBuilder.js";
+import formatter from "./formatter.js";
 
 const getFullPath = (filePath) => path.resolve(process.cwd(), filePath);
 
@@ -14,7 +15,8 @@ const fullFilePath1 = getFullPath(filePath1);
 const fullFilePath2 = getFullPath(filePath2);
 const data1 = getData(fullFilePath1);
 const data2 = getData(fullFilePath2);
-
+const tree = treeBuilder(data1, data2);
+return formatter(tree);
 };
 
 export default genDiff;
