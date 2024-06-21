@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs';
-import parse from './parse.js';
+import parse from './parsers.js';
 import treeBuilder from './treeBuilder.js';
 import formatter from './formatter.js';
 
