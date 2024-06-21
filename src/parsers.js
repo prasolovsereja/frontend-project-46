@@ -5,7 +5,7 @@ const parse = (data, format) => {
     case 'json':
       return JSON.parse(data);
     case 'yaml':
-      case 'yml':
+    case 'yml':
       return yaml.load(data);
     default:
       throw new Error(`Unknown order state: '${format}'!`);
