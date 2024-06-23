@@ -14,7 +14,7 @@ const stringify = (data, level) => {
     }
     const lines = Object
       .entries(currentValue)
-      .map(([key, value]) => `${getSpaceAndSymbol(depth + 1, '  ')}${key}: ${iter(value, depth + 1)}`);
+      .map(([key, value]) => `${getSpaceAndSymbol(depth + 1)}${key}: ${iter(value, depth + 1)}`);
     return [
       '{',
       ...lines,
