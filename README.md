@@ -2,7 +2,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/c90db697d012b0300bca/maintainability)](https://codeclimate.com/github/prasolovsereja/frontend-project-46/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/c90db697d012b0300bca/test_coverage)](https://codeclimate.com/github/prasolovsereja/frontend-project-46/test_coverage)
 # GenDiff
-## ОписаниеЖ
+## Описание
 Сравнивает 2 файла на наличие различий. Поддерживаемые форматы:
   - json
   - yaml/yml
