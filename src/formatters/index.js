@@ -7,6 +7,8 @@ const formatter = (tree, formatName) => {
       return getStylish(tree);
     case 'plain':
       return getPlain(tree);
+    case 'json':
+      return JSON.stringify(tree);
     default:
       throw new Error(`Unknown order state '${formatName}'!`);
   }
