@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+
 import globals from 'globals';
 
 import path from 'path';
