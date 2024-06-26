@@ -28,10 +28,10 @@ const getPlain = (tree) => {
         case 'changed':
           return `Property '${fullKey}' ${dataTypes.changed} ${formString(node.value1)} to ${formString(node.value2)}`;
         default:
-          return '';
+          return null;
       }
     });
-    return result.filter((item) => item !== '').join('\n');
+    return result.filter((item) => item !== null).join('\n');
   };
   return iter(tree, '');
 };

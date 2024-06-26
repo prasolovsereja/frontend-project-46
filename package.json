@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "",
+  "description": "App to compare 2 files",
   "type": "module",
   "bin": {
     "gendiff": "bin/index.js"
@@ -27,9 +27,7 @@
   },
   "dependencies": {
     "commander": "^12.1.0",
-    "fs": "^0.0.1-security",
     "js-yaml": "^4.1.0",
-    "lodash": "^4.17.21",
-    "path": "^0.12.7"
+    "lodash": "^4.17.21"
   }
 }
